@@ -10,21 +10,29 @@
 <body>
    <div class="container">
        <ul>
-           <li><img src="imagens/Tenis1.jpg">
+           <li class="cards"><img src="imagens/Tenis1.jpg">
             <h2>Nike</h2>
             <p>Tênis Air Force 1 Low x Travis Scott</p></li>
 
-           <li><img src="imagens/tenis2.jpg">
+           <li class="cards"><img src="imagens/tenis2.jpg">
             <h2>Travis Scott x Air Jordan 1 Retro High Dark Mocha</h2>
             <p>O Air Jordan 1 Travis Scott "Cactus Jack" é o resultado de uma das colaborações mais esperadas dei ano de 2019.
             <br>Uma parceria comprovada, Travis Scott e Nike estão se unindo para</p></li>
 
-           <li><img src="imagens/tenis3.jpg">
+           <li class="cards"><img src="imagens/tenis3.jpg">
         <h2>Travis Scott x Air Jordan 6 Cactus Jack</h2>
         <p>Quando as luzes se apagam, Travis Scott ganha vida.
         <br>Em sua mais recente colaboração com Jordan Brand, o rapper do momento se inspira no Air Jordan VI para um visual que brilha</p></li>
            
        </ul>
    </div>
+
+   <script type="text/javascript" src="vanilla-tilt.js"></script>
+   <script>
+       VanillaTilt.init(document.querySelectorAll(".cards"), {
+		max: 25,
+		speed: 400
+    });
+   </script>
 </body>
 </html>
