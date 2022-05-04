@@ -11,8 +11,7 @@
 body {
     width: 100vw;
     height: 100vh;
-    background: url(imagens/BackGround-2.jpg) repeat-x;
-    background-size: 38%;
+    background: rgb(83, 83, 83);
 
 }
 
